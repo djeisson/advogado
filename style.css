@@ -1,0 +1,248 @@
+
+:root{
+    --cor1:#c69c2f;
+    --cor2:black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    height: 100vh;
+}
+/*----------------------------------*/
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.div1-cabecalho{
+
+    display: flex;
+    flex-direction: row;
+}
+.linha{
+    margin: 30px auto 5px auto;
+    width: 70vw;
+    height: 1px;
+    background-color:var(--cor1);
+    border-radius: 10px;
+}
+/*----------------------------------*/
+.div2-cabecalho{
+    margin-top: 10px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.link{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color:var(--cor2);
+}
+.link:hover{
+    color: white;
+    background-color: var(--cor2);
+    border-radius: 5px;
+}
+
+.img-cabecalho{
+    height: 30px;
+    width: 30px;
+}
+/*main*/
+.main{
+    margin-top: 20px;
+}
+
+.div1-main{
+    height: 400px;
+    background-image: url(assets/back3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;justify-content: center;
+    
+}
+.div1-main h1{
+    font-size: 60px;
+    color: var(--cor1);
+}
+/*----------------------------------*/
+.div2-main{
+    background-color: #c69c2f;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+.titulo-div2>h2{
+    margin: 30px;
+    text-align: center;
+}
+.conteudo-div2{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.section-1{
+    background-image: url(https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.section-2{
+    background-image: url(https://images.pexels.com/photos/3771097/pexels-photo-3771097.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-3{
+    background-image: url(https://media.istockphoto.com/id/1158703224/pt/foto/attorney.jpg?b=1&s=612x612&w=0&k=20&c=6qCrIvTU6S7Oj2FLAVE7-UZNCSN2lU3KPsC6iXxbo4U=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section >div{
+    height: 100px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+section>div>h1{
+    color: var(--cor1);
+}
+section>div>p{
+    color: white;
+}
+/*----------------------------------*/
+.div3-main{
+    text-align: center;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div3-main h1,p{
+    padding: 20px;
+}
+.div3-main button{
+    background-color: var(--cor1);
+    padding: 5px 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.div3-main button:hover{
+    background-color: var(--cor1);
+    padding: 5px 40px;
+    box-shadow: 0px 0px 10px #c69c2f;
+}
+.div3-main a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;    
+}
+
+
+/*footer*/
+.rodape{
+    background-image: linear-gradient(to top, #c69c2f, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.rodape nav>a>img{
+    height: 30px;
+}
+.rodape-conteudo a{
+    margin: 0px;
+    color: black;
+    text-decoration: none;
+}
+.rodape-conteudo p{
+    margin: 0px;
+}
+
+@media screen and (max-width:800px) {
+    .main{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .div1-main{
+        max-width: 800px;
+    }
+    .div1-main>h1{
+        font-size: 3em;
+    }
+    .div2-main{
+        height: 1400px;
+        background-color: #c69c2f;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        max-width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section-1{
+        margin: 10px;
+        height: 350px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section-2{
+        margin: 10px;
+    }
+    .div3-main{
+        margin: 0px auto 0px auto;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
