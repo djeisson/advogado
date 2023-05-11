@@ -1,0 +1,123 @@
+:root{
+    --cor1:#c9a227;
+    --cor2:black;
+    --cor3:rgba(255, 255, 255, 0.521);
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+/*cabeçalho*/
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*-------------------------------------------------*/
+.div1-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.linha{
+    margin-top: 24px;
+    height: 1px;
+    width: 70vw;
+    background-color: var(--cor1);
+}
+/*-------------------------------------------------*/
+.div2-cabecalho{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.link{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.link:hover{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow:0px 0px 10px var(--cor2);
+}
+
+.img-cabecalho{
+    height: 30px;
+    width: 30px;
+}
+/*main*/
+main{
+    padding: 30px;
+    background-color: var(--cor1);
+    margin-top: 24px;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+}
+
+input{
+    background-color: transparent;
+    width: 70%;
+    border-radius: 10px;
+    border-color: var(--cor2);
+}
+
+.btn{
+    background-color: transparent;
+    margin-top: 10px;
+    width: 30%;
+    height: 30px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    font:bolder;
+}
+
+.btn:hover{
+    background-color: var(--cor1);
+    
+}
+
+/*Rodapé*/
+.rodape{
+    background-image: linear-gradient(to top, #c9a227,white);
+    text-align: center;
+}
+.h3{
+    margin-top: 10px;
+} 
+
+.img-footer{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.rodape-conteudo{
+    margin-top: 10px;
+}
+
+.link-endereco{
+    text-decoration: none;
+    color: var(--cor2);
+}
