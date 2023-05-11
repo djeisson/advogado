@@ -63,16 +63,26 @@
 }
 /*main*/
 main{
+    height: 600px;
     padding: 30px;
-    background-color: var(--cor1);
     margin-top: 24px;
-    width: 70%;
+    width: 100%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     box-shadow: 0px 0px 10px black;
+    background-image: url(assets/back1.jpg);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.container{
+    width: 70%;
+    background-color: var(--cor1);
+    padding: 30px;
 }
 
 input{
@@ -83,7 +93,7 @@ input{
 }
 
 .btn{
-    background-color: transparent;
+    background-color: black;
     margin-top: 10px;
     width: 30%;
     height: 30px;
@@ -91,10 +101,12 @@ input{
     box-shadow: 0px 0px 10px black;
     border-radius: 10px;
     font:bolder;
+    color: white;
 }
 
 .btn:hover{
     background-color: var(--cor1);
+    color: black;
     
 }
 
