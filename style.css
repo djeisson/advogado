@@ -219,3 +219,69 @@
     text-decoration: none;
     color: var(--cor2);
 }
+
+@media screen and (min-width:800px) {
+    .conteudo-div2{
+        margin-bottom: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .container-pai{
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    .section-1{
+        margin:10px 5px;
+        padding: 30px;
+        width: 800px;
+        height: 200px;
+        background-image: url(https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .section-2{
+        margin:10px 5px;
+        padding: 30px;
+        width: 800px;
+        height: 200px;
+        background-image: url(https://images.pexels.com/photos/3771097/pexels-photo-3771097.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section-3{
+        margin:10px 5px;
+        padding: 30px;
+        width: 800px;
+        height: 200px;
+        background-image: url(https://images.pexels.com/photos/5668837/pexels-photo-5668837.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+}
